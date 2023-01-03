@@ -19,9 +19,9 @@ class Program
 		M.u(ref y);
 		// Aufruf der Methode u der Klasse M, mit Übergabe der Speicheradresse des Objektes y
 		/*
-		public  static void u (ref C y){
-        	y.foo=4;                            // foo der Speicheradresse wird auf 4 gesetzt
-        	y=new C{foo=5};                     // Speicheradresse wird neu initialisiert mit foo = 5
+		public  static void u (ref C x){
+        	x.foo=4;                            // foo der Speicheradresse wird auf 4 gesetzt
+        	x=new C{foo=5};                     // Speicheradresse wird neu initialisiert mit foo = 5
         }
         */
 		Console.WriteLine("y.foo: " + y.foo);   // Ausgabe: y.foo: 5

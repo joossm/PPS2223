@@ -19,9 +19,9 @@ class Program
 		M.u(y);
 		// Aufruf der Methode u der Klasse M, mit Übergabe des Objektes y
 		/*
-		public  static void u (ref C y){
-        	y.foo=4;                            // foo des Objektes y wird auf 4 gesetzt
-        	y=new C{foo=5};                     // Objekt y wird neu initialisiert mit foo = 5
+		public  static void u (C x){
+        	x.foo=4;                            // foo des Objektes y wird auf 4 gesetzt
+        	x=new C{foo=5};                     // Objekt x wird neu erstellt mit foo = 5
         }
         */
 		Console.WriteLine("y.foo: " + y.foo);   // Ausgabe: y.foo: 3
