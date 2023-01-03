@@ -16,7 +16,7 @@ class Program
     static void Main(string[] args) {
 		C y = new C {foo=3};
 		C z = y;
-		M.u(y);
+		M.u(ref y);
 		Console.WriteLine("y.foo: " + y.foo);
 		Console.WriteLine("z.foo: " + z.foo);
     }
