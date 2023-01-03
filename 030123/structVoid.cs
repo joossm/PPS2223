@@ -17,7 +17,7 @@ class Program
 		C y = new C {foo=3};
 		C z = y;
 		M.u(y);
-		Console.WriteLine (y.foo);
-		Console.WriteLine (z.foo);
+		Console.WriteLine("y.foo: " + y.foo);
+		Console.WriteLine("z.foo: " + z.foo);
     }
 }
