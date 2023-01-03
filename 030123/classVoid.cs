@@ -13,7 +13,7 @@ public  static void u (ref C x){
 
 class Program
 {
-    static void Main() {
+    static void Main(string[] args) {
 		C y = new C {foo=3};
 		C z = y;
 		M.u(y);
