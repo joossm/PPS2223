@@ -7,7 +7,6 @@ import (
 
 func main() {
 	for i := 0; true; i++ {
-
 		// print start
 		fmt.Printf("\nStart: %d\n", i)
 		tick := 20
@@ -296,11 +295,11 @@ func main() {
 			println("End")
 			if none {
 				//fmt.Println("all tickets gone", name)
-				break
+				//break
 			}
 			if two {
 				//fmt.Println("two with no ticket: ", name1)
-				//break
+				break
 			}
 			if one {
 				//fmt.Println("one with no ticket: ", name0)
