@@ -315,7 +315,7 @@ func ride(tick int, trick int, track int) (int, int, int) {
 	tick = tick - 1
 	trick = trick - 1
 	track = track - 1
-	fmt.Printf("tick: %d, trick: %d, track: %d\n", tick, trick, track)
+	fmt.Printf("RIDE tick: %d, trick: %d, track: %d\n", tick, trick, track)
 	return tick, trick, track
 }
 
